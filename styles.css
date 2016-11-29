@@ -1,0 +1,376 @@
+
+/*************************** 
+  ELEMENT STYLES
+***************************/
+
+* {
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	font-family: 'Sumana', serif;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.2;
+	color: #000;
+	text-align: center;
+	background-color: #c6e2ff;
+	padding: 0;
+}
+
+header,
+footer,
+.contact {
+	width: 80%;
+}
+
+h1 {
+	font-weight: 400;
+	color: #35586C;
+}
+
+#portfolio {
+	font-weight: 400;
+	color: #35586C;
+}
+
+
+#skills {
+	font-weight: 400;
+	color: #35586C;
+}
+
+#contact {
+	font-weight: 400;
+	color: #35586C;
+}
+
+#felicity {
+	color: #35586C;
+}
+
+h3 {
+	color: #236B8E;
+	font-weight: 400;
+}
+
+p {
+	font-size: 1em;
+	width: 100%;
+	padding: 0 .5em;
+	text-align: center;
+	font-weight: 100;
+	color: #6996AD;
+}
+
+a {
+	text-decoration: none;
+	color: #35586C;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/*************************** 
+  LAYOUT STYLES
+***************************/
+
+/* ---- Navigation ---- */
+
+.main-nav li {
+	color: #35586C;
+	padding: .5em;
+	margin-top: 4px;
+	list-style: none;
+}
+
+a:visited {
+  	color: #35586C;
+}
+
+a:hover {
+  	color: #a9a9a9;
+}
+
+#footer a:visited {
+  	color: #35586C;
+}
+
+#footer a:hover {
+  	color: #a9a9a9;
+}
+
+/*************************** 
+  LAYOUT CONTAINERS
+***************************/
+
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.header {
+	padding-bottom: 1em;
+}
+
+.portfolio,
+.skills,
+.contact {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.port-ul,
+.skills-ul {
+	padding: 0;
+}
+
+.footer {
+	border-top: 2px solid #ABABAB;
+	padding-top: .5em;
+	padding-bottom: 1em;
+	display: inline-block;
+	width: 100%;
+	color: #000;
+}
+
+.skills ul {
+	display: inline-block;
+}
+
+/*************************** 
+  PAGE ELEMENTS
+***************************/
+
+
+#profile-pic {
+	width: 70%;
+	margin-top: 2em;
+}
+
+.port-pic {
+	margin-top: 1.8em;
+}
+
+#felicity {
+	float: left;
+}
+
+#footer {
+	float: right;
+}
+
+.portfolio li p
+.skills p {
+	display: inline-block;
+	margin-top: -3px;
+	width: 65%;
+}
+
+.info li {
+	display: inline-block;
+	padding: 0 6px;
+	margin-top: 8px;
+	color: #000;
+}
+
+.hidden {
+	display: none;
+}
+
+.info a {
+	color: #000;
+}
+
+.info a:hover {
+	color: #a9a9a9;
+}
+
+.info a:visited {
+	color: #000;
+}
+
+
+
+/*************************** 
+  MEDIA QUERIES
+***************************/
+
+@media (min-width: 768px) {
+
+
+.main-nav li {
+	color: #000;
+	display: inline-block;
+	font-size: 1.22em;
+	text-align: right;
+}
+
+.main-nav li a {
+	color: #000;
+}
+
+.main-nav li a:hover {
+  	color: #a9a9a9;
+}
+
+.footer li a:hover {
+	color: #a9a9a9;
+}
+
+.profile {
+	display: inline-block;
+	width: 90%;
+}
+
+#profile-pic {
+	float: right;
+	width: 40%;
+	
+}
+
+.profile p {
+	width: 55%;
+	text-align: left;
+	font-size: 1.2em
+}
+
+.header {
+	padding-bottom: 2em;
+}
+
+.portfolio li {
+	display: inline-block;
+	float: left;
+	width: 46%;
+	margin: 5px 1%;
+	
+}
+
+.skills li {
+	display: inline-block;
+	float: left;
+	width: 46%;
+	margin: 5px 1%;
+	
+}
+
+#interested {
+	padding: 0 20%;
+}
+
+#footer {
+	display: none;
+}
+
+.footer li a {
+	color: #000;
+}
+
+.hidden {
+	display: inline-block;
+	/*text-align: left;*/
+	margin: 0 5px;
+	float: right;
+}
+
+a:visited {
+  	color: #000;
+}
+
+a:hover {
+  	color: #a9a9a9;
+}
+
+
+#footer a:hover {
+  	color: #a9a9a9;
+}
+
+.main-nav li a {
+	color: #35586C;
+}
+
+#home {
+	color: #35586C;
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+
+.nav-bar,
+.profile,
+.skills,
+.portfolio,
+.footer,
+.contact div {
+	display: inline-block;
+	width: 90%;
+	max-width: 1025px;
+}
+
+.nav-bar {
+	padding-top: 1em;
+}
+
+#home {
+	float: left;
+	color: #35586C;
+}
+
+
+.main-nav {
+	float: right;
+}
+
+.main-nav li a {
+	color: #35586C;
+}
+
+.portfolio {
+	margin: 1em;
+	padding: 0;
+}
+
+.portfolio li {
+	width: 31.3%;
+}
+
+.portfolio li p {
+	width: 100%;
+}
+
+#interested {
+	display: inline-block;
+	width: 45%;
+	padding: 0 5px;
+	margin-top: 0;
+}
+
+.skills {
+	margin: 1em;
+	padding: 0;
+}
+
+.skills li {
+	width: 31.3%;
+	display: block;
+	/*vertical-align: top;*/
+}
+
+.footer li a {
+	color: #35586C;
+}
+
+
+
+
+
+
+
