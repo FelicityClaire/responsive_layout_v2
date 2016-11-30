@@ -10,7 +10,7 @@
 
 body {
 	font-family: 'Sumana', serif;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.2;
 	color: #000;
 	text-align: center;
@@ -255,7 +255,6 @@ a:hover {
 	float: left;
 	width: 46%;
 	margin: 5px 1%;
-	
 }
 
 #interested {
@@ -298,6 +297,10 @@ a:hover {
 	color: #35586C;
 }
 
+#home-nav {
+	color: #35586C;
+}
+
 
 
 
@@ -324,6 +327,10 @@ a:hover {
 	color: #35586C;
 }
 
+#home-nav {
+	float: left;
+	color: #35586C;
+}
 
 .main-nav {
 	float: right;
